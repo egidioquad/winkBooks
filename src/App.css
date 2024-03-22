@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+	padding: 2rem; /* Base padding for all screen sizes */
+
+	@media (min-width: 768px) {
+		/* Adjust for medium screens (tablets) */
+		padding: 3rem;
+	}
+
+	@media (min-width: 992px) {
+		/* Adjust for large screens (desktops) */
+		padding: 4rem;
+	}
+}

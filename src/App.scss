@@ -1,0 +1,20 @@
+.app {
+	min-height: 100vh;
+
+	&.dark-theme {
+		background-color: #1d232a;
+		color: #a3aab8;
+		border-color: #a3aab8;
+	}
+
+	&.light-theme {
+		background-color: #fff;
+		color: #333;
+		border-color: #333;
+
+		button {
+			background-color: #ffff;
+			color: #333;
+		}
+	}
+}
