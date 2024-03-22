@@ -31,8 +31,8 @@ const Details = () => {
 	return (
 		<div>
 			{book ? (
-				<div className="md:flex md:flex-row w-full p-8 gap-8  items-center ">
-					<div className="md:w-2/5  mb-8 ">
+				<div className="md:flex md:flex-row w-full p-8 gap-8 justify-center ">
+					<div className="md:w-2/5  mb-8 max-w-lg">
 						{book.volumeInfo.imageLinks.large && (
 							<img
 								src={book.volumeInfo.imageLinks.large}
@@ -41,7 +41,7 @@ const Details = () => {
 							/>
 						)}
 					</div>
-					<div className="md:w-3/5">
+					<div className="md:w-3/5 max-w-2xl">
 						<div className="border rounded-md p-8 flex flex-col gap-8">
 							<div>
 								<h1 className="text-lg font-bold mb-2">{book.volumeInfo.title}</h1>
